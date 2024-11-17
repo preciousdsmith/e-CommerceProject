@@ -1,20 +1,27 @@
 [
     {
-        "photo": "",
+        "photo": "images/Lustgloss1.webp",
         "name": "Angel",
-        "price": 23.99,
+        "price": 25.99,
         "desc": "Nude gloss"
     },
     {
-        "photo":"",
-        "name": "Angel",
-        "price": 23.99,
+        "photo":"images/gloss2.png",
+        "name": "Venus",
+        "price": 25.99,
         "desc": "Nude gloss"
     },
     {
-        "photo":"",
+        "photo":"images/Passion.png",
         "name": "Angel",
-        "price": 23.99,
+        "price": 25.99,
+        "desc": "Nude gloss"
+    },
+
+    {
+        "photo":"images/Potion.png",
+        "name": "Angel",
+        "price": 25.99,
         "desc": "Nude gloss"
     },
 
@@ -42,35 +49,28 @@
     {
         "photo":"",
         "name": "Angel",
-        "price": 23.99,
+        "price": 22.99,
         "desc": "Nude gloss"
     },
 
     {
         "photo":"",
         "name": "Angel",
-        "price": 23.99,
-        "desc": "Nude gloss"
-    },
-
-    {
-        "photo":""
-        "name": "Angel",
-        "price": 23.99,
+        "price": 22.99,
         "desc": "Nude gloss"
     },
 
     {
         "photo":"",
         "name": "Angel",
-        "price": 23.99,
+        "price": 22.99,
         "desc": "Nude gloss"
     },
 
     {
         "photo":"",
         "name": "Angel",
-        "price": 23.99,
+        "price": 22.99,
         "desc": "Nude gloss"
     }
 ]

@@ -11,14 +11,23 @@ body {
     }
 
 
-
     .grid-container {
         display: grid;
         grid-template-columns: auto auto auto auto;
         grid-gap: 10px;
         padding: 10px;
+        height: 100%;
+        width: 100%;
+
     }
-    
+    .grid-container img {
+height: 80px;
+    }
+
+    .grid-container h3 {
+        font-size: 20px;
+    }
+
     .grid-container > div {
         background-color: White;
         text-align: center;
