@@ -8,7 +8,7 @@ html, body {
     display: flex;
     width: 100%;
     height: 80%;
-    background-color: #BEA593;
+    background-color:#643923;
     }
     
     .nav {
@@ -86,7 +86,7 @@ html, body {
     }
 
     .input-box input:focus {
-        border-color: #007bff;
+        border-color: #BEA593;
         outline: none;
     }
 
@@ -97,7 +97,7 @@ html, body {
     }
 
     .regis-button input[type="submit"] {
-        background-color: #007bff;
+        background-color: #BEA593;
         color: #fff;
         border: none;
         padding: 12px 30px;
@@ -108,9 +108,22 @@ html, body {
     }
 
     .regis-button input[type="submit"]:hover {
-        background-color: #0056b3;
+        background-color:#BEA593;
     }
 
+
+
+    .footer-container {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        justify-content: center;
+        background-color:#643923;
+        }
+    
     /* Media Query for smaller screens */
     @media (max-width: 768px) {
         .input-box {

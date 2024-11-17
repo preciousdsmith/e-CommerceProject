@@ -1,76 +1,83 @@
 [
     {
-        "photo": "images/Lustgloss1.webp",
+        "photo": "./ProductPage/images/Lustgloss1.webp",
         "name": "Angel",
         "price": 25.99,
-        "desc": "Nude gloss"
+        "desc": "Pink gloss"
     },
     {
-        "photo":"images/gloss2.png",
+        "photo":"./ProductPage/images/gloss2.png",
         "name": "Venus",
         "price": 25.99,
         "desc": "Nude gloss"
     },
     {
-        "photo":"images/Passion.png",
-        "name": "Angel",
+        "photo":"./ProductPage/images/Passion.png",
+        "name": "Pssion",
         "price": 25.99,
-        "desc": "Nude gloss"
+        "desc": "Sparkle gloss"
     },
 
     {
-        "photo":"images/Potion.png",
-        "name": "Angel",
+        "photo":"./ProductPage/images/Potion.png",
+        "name": "Potion",
         "price": 25.99,
-        "desc": "Nude gloss"
+        "desc": "Coral gloss"
     },
 
     {
-        "photo":"",
-        "name": "Angel",
+        "photo":"./ProductPage/images/blush1.png",
+        "name": "Yes Ma'am",
         "price": 23.99,
-        "desc": "Nude gloss"
+        "desc": "Berry Blush"
     },
 
     {
-        "photo":"",
-        "name": "Angel",
+        "photo":"./ProductPage/images/blush2.png",
+        "name": "Sweet",
         "price": 23.99,
-        "desc": "Nude gloss"
+        "desc": "Pink Blush"
     },
 
     {
-        "photo":"",
-        "name": "Angel",
+        "photo":"./ProductPage/images/blush3.png",
+        "name": "Princess",
         "price": 23.99,
-        "desc": "Nude gloss"
+        "desc": "Grape Blush"
     },
 
     {
-        "photo":"",
-        "name": "Angel",
+        "photo":"./ProductPage/images/blush4.png",
+        "name": "Mrs. Pretty",
         "price": 22.99,
-        "desc": "Nude gloss"
+        "desc": "Nude Blush"
     },
 
     {
-        "photo":"",
-        "name": "Angel",
-        "price": 22.99,
-        "desc": "Nude gloss"
+        "photo":"./ProductPage/images/eyeshadow1.png",
+        "name": "Majesstic",
+        "price": 50.99,
+        "desc": "Brown Shades"
     },
 
     {
-        "photo":"",
-        "name": "Angel",
-        "price": 22.99,
-        "desc": "Nude gloss"
+        "photo":"./ProductPage/images/eyeshadow3.png",
+        "name": "Royal Highness",
+        "price": 50.99,
+        "desc": "Sparkle and Matte Shades"
     },
 
     {
-        "photo":"",
-        "name": "Angel",
-        "price": 22.99,
-        "desc": "Nude gloss"
+        "photo":"./ProductPage/images/eyeshadow3.png",
+        "name": "God Mother",
+        "price": 50.99,
+        "desc": "Sparkle and Matte Shades"
+    },
+
+    {
+        "photo":"./ProductPage/images/eyeshadow4.png",
+        "name": "Goddess",
+        "price": 50.99,
+        "desc": "High-end Glitter Shades"
     }
 ]

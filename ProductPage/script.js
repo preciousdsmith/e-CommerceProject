@@ -1,5 +1,5 @@
 const grid = document.querySelector(".grid-container");
-fetch('products.json') //fetching the products' information from the json file
+fetch('./ProductPage/products.json') //fetching the products' information from the json file
 //.then allows the process to speed up
 .then(response => {
 return response.json();
