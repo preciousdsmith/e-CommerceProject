@@ -3,13 +3,14 @@ form.addEventListener('submit', (e) => {
 e.preventDefault();
 
 
-
+// Get all input elements on the form
             const inputs = document.getElementsByTagName('input');
 
             let arrOfInputs = [...inputs];
 
 
             for(let i = 0; i < arrOfInputs.length; i++) {
+                // Check if the input field is empty
                 if(arrOfInputs[i].value.trim() == '') {
                 
                     arrOfMessages[i].style.visibility = 'visible';
@@ -29,22 +30,21 @@ arrOfIcons[i].style.color = 'red';
 isFormValid = false;
 
 
-                    }  else {
+                    }  else {  // If phone number is valid, mark as valid
                         arrOfMessages[i].style.visibility = 'hidden';
                         arrOfInputs[i].classList.remove('invalid');
                         arrOfInputs[i].classList.add('valid');
-                        arrOfIcons[i].style.color = '#43a047';   
                         isFormValid = true;
                     }
 
                 //email validation
                 } else if (i == 3) {
-
+                // Check if the email contains '@'
                     if(!arrOfInputs[i].value.includes('@')) {
                         arrOfMessages[i].innerText = 'Enter valid email address';
                         arrOfMessages[i].style.visibility = 'visible';
                         arrOfInputs[i].classList.add('invalid');
-                        arrOfIcons[i].style.color = 'red';  
+                        // Set the form as invalid
                         isFormValid = false;
 
 
@@ -52,7 +52,6 @@ isFormValid = false;
                         arrOfMessages[i].style.visibility = 'hidden';
                         arrOfInputs[i].classList.remove('invalid');
                         arrOfInputs[i].classList.add('valid');
-                        arrOfIcons[i].style.color = '#43a047';
                         isFormValid = true;  
                     }
 
@@ -60,13 +59,12 @@ isFormValid = false;
                 else {
                     arrOfMessages[i].style.visibility = 'hidden';
                     arrOfInputs[i].classList.remove('invalid');
-                    arrOfInputs[i].classList.add('valid');
-                    arrOfIcons[i].style.color = '#43a047';   
+                    arrOfInputs[i].classList.add('valid'); 
                     isFormValid = true;
 
                 }
 
-
+// If the form is valid, open the modal
             }if(isFormValid) {
                     modalInstance.open(); 
             } 
